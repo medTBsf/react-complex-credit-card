@@ -1,0 +1,17 @@
+.App {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.formulaire {
+  margin-top: 15px;
+  background-color: gainsboro;
+  width: 350px;
+  padding: 10px;
+  box-sizing: border-box;
+}

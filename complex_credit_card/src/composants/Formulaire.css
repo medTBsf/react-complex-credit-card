@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  background-color: lightblue;
+  border-radius: 5px;
+}
+label {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+}
+
+.serial-warning,
+.holder-warning,
+.valid-warning {
+  color: red;
+  height: 20px;
+}

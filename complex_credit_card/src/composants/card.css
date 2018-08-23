@@ -1,0 +1,92 @@
+h1 {
+  text-align: right;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.card-puce {
+  width: 50;
+  height: 50;
+  margin-bottom: 10px;
+}
+.card-zone {
+  width: 300px;
+  border-radius: 15px;
+  padding: 0.02px 20px 10px;
+
+  color: #fff;
+}
+.Card-serie-number {
+  color: #c0c47e;
+  background-color: rgba(192, 196, 126, 0.5);
+  display: inline-block;
+  padding: 1px 5px;
+  font-size: 1.4em;
+  margin-bottom: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 220px;
+  height: 28px;
+  text-align: center;
+}
+.visa-logo {
+  width: 60px;
+}
+.visa-logo img {
+  width: 100%;
+}
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-content {
+  margin-right: 5px;
+}
+.card-puce {
+  width: 60px;
+}
+.card-puce img {
+  width: 100%;
+}
+.validation-numbers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.month-year {
+  text-align: right;
+  font-size: 0.55em;
+}
+.four-numbers,
+.date-expiration {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.date-expiration {
+  width: 60px;
+  height: 28px;
+}
+.expiration,
+.valid-thru-right-arrow {
+  display: flex;
+  align-items: center;
+}
+.valid-thru-right-arrow {
+  margin-right: 5px;
+  font-size: 0.55em;
+}
+.valid-thru {
+  margin-right: 2px;
+}
+.cardholder {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  width: 220px;
+  word-wrap: break-word;
+}
+.valid-thru,
+.month-year {
+  text-transform: uppercase;
+}
